@@ -4,8 +4,13 @@ const config = {
 
 	theme: {
 		extend: {
-			fontSize: {
-				base: ['10px']
+			colors: {
+				background: '#FCFCFC',
+				foreground: '#1A292E',
+				accent1: '#48AC39',
+				accent2: '#418738',
+				accent3: '#3A6236'
+				// Add as many as you need
 			}
 		}
 	},
