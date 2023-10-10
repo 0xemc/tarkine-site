@@ -4,7 +4,7 @@
 	import logo from '$lib/assets/images/logo.png';
 </script>
 
-<img alt="background" class="background" src={background} />
+<div class="background" style="background-image: url({background});" />
 <div class="content p-5 lg:p-16 h-full">
 	<img alt="logo" class="logo" src={logo} />
 	<slot />
@@ -13,8 +13,11 @@
 <style>
 	.background {
 		position: absolute;
-		min-width: 100vw;
-		min-height: 100vh;
+		width: 100vw;
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 	.content {
 		position: relative;
