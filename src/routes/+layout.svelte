@@ -18,10 +18,6 @@
 	}
 	.content {
 		position: relative;
-		margin-top: env(safe-area-inset-top);
-		margin-right: env(safe-area-inset-right);
-		margin-bottom: env(safe-area-inset-bottom);
-		margin-left: env(safe-area-inset-left);
 	}
 	.logo {
 		width: 260px;
